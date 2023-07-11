@@ -15,7 +15,7 @@ html,body{
     height: 100%;
     background-color: rgb(163,160,160);
     overflow: auto;
-
+    
 }
 
 header{
@@ -30,7 +30,6 @@ header{
     height: 50px;
     width: 85%;
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-around;
     margin-left: 120px;
@@ -41,9 +40,11 @@ header{
     height: 500px;
     width:  65%;
     margin-left: 120px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-bottom: 20px;
     padding: 10px;
+    display: inline-block;
+ 
 }
 .art_heading{
     font-family: 'Kablammo', cursive;
@@ -53,8 +54,9 @@ header{
 
 #relatedd{
    background-color: rgb(229, 139, 229);
-   overflow: auto; 
-   position: absolute;
-   left: 75%;
-   top: 14%;
-}
+   overflow: auto;
+   display: inline-block; 
+   margin-bottom: 0px;
+   height: 476px;
+   
+} 
