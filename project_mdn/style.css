@@ -2,61 +2,84 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* background-color: grey; */
 }
 
 html,body{
     width: 100%;
     height: 100%;
+    background-color: #a9a9a9;
+}
+
+body{
+    padding: 2%;
 }
 
 #main{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(163,160,160);
-    overflow: auto;
-    
+    /* background-color:aqua; */
+    padding: 10px;
 }
 
-header{
+h1,h2,h3{
+    font-family: 'Sonsie One', cursive;
+    color: #2a2a2a; 
+}
+
+h1{
     text-align: center;
-    font-size: 100px;
-    font-family: 'Kablammo', cursive;
-    font-family: 'Yellowtail', cursive;
+    /* background-color: blue; */
+    padding: 2px;
+    color: white;
+}
+
+h2{
+    text-align: center;
 }
 
 #nav{
-    background-color: rgb(229, 139, 229);
-    height: 50px;
-    width: 85%;
     display: flex;
+    background-color: #ff80ff;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-bottom: 4px;
     align-items: center;
-    justify-content: space-around;
-    margin-left: 120px;
+}
+
+#main_content{
+    /* background-color: orange; */
+    display: flex;
+    padding: 10px;
 }
 
 #article{
-    background-color: rgb(255,255,255);
-    height: 500px;
-    width:  65%;
-    margin-left: 120px;
-    /* margin-top: 10px; */
-    margin-bottom: 20px;
-    padding: 10px;
-    display: inline-block;
- 
-}
-.art_heading{
-    font-family: 'Kablammo', cursive;
-    font-family: 'Yellowtail', cursive;
-    font-size: 28px;
+    background-color: white;
+    margin-left: 46px;
+    margin-right: 10px; 
+    padding: 10px;  
+    width: 85%;
 }
 
 #relatedd{
-   background-color: rgb(229, 139, 229);
-   overflow: auto;
-   display: inline-block; 
-   margin-bottom: 0px;
-   height: 476px;
-   
-} 
+    background-color: #ff80ff;
+    width: 300px;
+    margin-right: 49px;
+    padding: 20px;
+    line-height: 25px;
+}
+
+footer{
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    margin-left: 55px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
