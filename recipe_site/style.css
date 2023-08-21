@@ -104,6 +104,19 @@ footer p{
     gap: 30px;   
 }
 
+@media(max-width: 500px){
+    #main_containor{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main #food1,#food2,#food3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
 /* #main_containor{
     background-image: url(../images/uttrakhand_food.jpg);
 } */

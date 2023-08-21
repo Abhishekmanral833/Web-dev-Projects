@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#containor{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(173, 221, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    width: 270px;
+    height: 380px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    box-shadow: 1px 1px 15px;
+}
+
+#card img{
+    width: 270px;
+    height: 125px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+
+#card h3{
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+#card p{
+    font-size: 0.7rem;
+    text-align: center;
+    margin: 0 20px;
+}
+
+#annual_plan{
+    width: 90%;
+    height: 11%;
+    background-color:rgb(102, 188, 227);
+    margin: 10px 15px ;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    gap: 10px;
+    border-radius:3px;
+}
+
+#pay_button{
+    width: 75%;
+    height: 9%;
+    background-color:rgb(21, 16, 74);
+    border: none;
+    color: white;
+    border-radius:7px; 
+    box-shadow: 0 8px 20px rgb(0,0,0,0.9);
+    font-size: 12px;
+}
+
+/* #play_button h5{
+    color: white;
+} */
+
+#order_cancellation{
+    margin:10px;
+}
+
+#order_cancellation a{
+    /* margin: 10px; */
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#leftsec {
+    display: flex;
+    gap: 10px;
+}
+
+#leftsec i{
+    font-size: 20px;
+}
+
+#rightsec a{
+    font-size: 14px;
+}
+
+
+
+
+
